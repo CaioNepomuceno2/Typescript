@@ -1,14 +1,15 @@
 {
-  "name": "aula-dio",
+  "name": "estudo-typescript",
   "version": "1.0.0",
-  "description": "",
+  "description": "Estudos de TypeScript (curso DIO / Take Blip)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
     "start": "lite-server",
     "watch": "tsc --watch"
   },
-  "author": "",
+  "author": "Caio Henrique Nepomuceno Santos",
   "license": "ISC",
   "dependencies": {
     "lite-server": "^2.6.1"

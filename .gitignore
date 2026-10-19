@@ -1,4 +1,14 @@
-node_modules
-app.js
-**/*.js
-**/*.js.map
+# Dependências
+node_modules/
+
+# Saída da compilação (tsc)
+dist/
+*.js.map
+
+# Logs
+npm-debug.log*
+
+# Editor / SO
+.vscode/
+.DS_Store
+Thumbs.db
