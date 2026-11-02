@@ -31,8 +31,8 @@ As respostas de referência do curso, incluindo o desafio 3 (manipulação do DO
 Pré-requisito: [Node.js](https://nodejs.org/) (LTS).
 
 ```bash
-git clone https://github.com/CaioNepomuceno2/estudo-typescript.git
-cd estudo-typescript
+git clone https://github.com/CaioNepomuceno2/Typescript.git
+cd Typescript
 npm install
 
 npm run build   # compila src/ para dist/ (tsc)
