@@ -31,14 +31,16 @@ As respostas de referência do curso, incluindo o desafio 3 (manipulação do DO
 Pré-requisito: [Node.js](https://nodejs.org/) (LTS).
 
 ```bash
-git clone https://github.com/CaioNepomuceno2/Typescript.git
-cd Typescript
+git clone https://github.com/CaioNepomuceno2/typescript-studies.git
+cd typescript-studies
 npm install
 
 npm run build   # compila src/ para dist/ (tsc)
 npm run watch   # recompila a cada alteração
-npm start       # abre o index.html com lite-server em http://localhost:3000
+npm start       # abre o index.html com o http-server em http://localhost:3000
 ```
+
+O servidor local é o [http-server](https://github.com/http-party/http-server), sem cache (`-c-1`). Ele não recarrega a página sozinho: depois que o `npm run watch` recompilar, atualize o navegador (F5).
 
 O `index.html` carrega `dist/app.js`. Para testar outro arquivo, altere o `src` da tag `<script>` (por exemplo, `dist/exemplos/basico.js`, que usa os campos e o botão da página) e veja a saída no console do navegador.
 

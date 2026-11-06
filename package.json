@@ -6,15 +6,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "start": "lite-server",
+    "start": "http-server -p 3000 -c-1 -o",
     "watch": "tsc --watch"
   },
   "author": "Caio Henrique Nepomuceno Santos",
   "license": "ISC",
   "dependencies": {
-    "lite-server": "^2.6.1"
+    "http-server": "^14.1.1"
   },
   "devDependencies": {
-    "typescript": "^4.3.5"
+    "typescript": "^5.9.3"
   }
 }
